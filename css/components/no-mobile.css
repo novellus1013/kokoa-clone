@@ -1,0 +1,24 @@
+.no-mobile {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/git.png);
+  background-size: 100vw 100vh;
+  color: white;
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 50px;
+  font-weight: bold;
+  top: 0;
+}
+.no-mobile > span {
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 650px) {
+  .no-mobile {
+    display: none;
+  }
+}
