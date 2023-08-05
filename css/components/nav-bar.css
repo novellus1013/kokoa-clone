@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   background-color: black;
-  padding: 20px 50px;
+  padding: 0.2rem 2rem;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
   text-align: center;
@@ -24,17 +24,74 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 0.6rem;
   color: white;
 }
 
-.nav__item > :first-child {
+.nav_link > :first-child {
   font-size: 1.5rem;
 }
-.nav__item > :last-child {
+.nav_link > :last-child {
   font-size: 1.2rem;
 }
 
 .nav__pick {
   color: #58a6ff;
+}
+
+.nav_abs {
+  position: relative;
+}
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 3rem;
+  bottom: 2rem;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav__item {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: appearBtnAnimation 0.3s ease-in-out forwards;
+}
+
+.nav__item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.nav__item:nth-child(3) {
+  animation-delay: 0.5s;
+}
+.nav__item:last-child {
+  animation-delay: 0.8s;
 }

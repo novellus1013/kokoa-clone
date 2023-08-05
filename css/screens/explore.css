@@ -1,0 +1,131 @@
+.explore-wrapper {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+.discover {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+  gap: 1rem;
+}
+
+.discover__title {
+  font-size: 1.2rem;
+}
+
+.discover__row {
+  display: flex;
+  gap: 1rem;
+}
+.discover__row > :first-child {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid rgba(121, 121, 121, 0.3);
+  gap: 1rem;
+}
+.activity__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity__row > :first-child {
+  font-size: 1.2rem;
+}
+
+.activity__row > :last-child {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.activity__rows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.recommend {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background-color: rgba(121, 121, 121, 0.3);
+  border-radius: 10px;
+  padding-left: 0;
+  list-style: none;
+  padding: 1rem;
+}
+
+.repo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.repo__title {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.repo__sub {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.repo__row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.repo__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-btn {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: rgba(121, 121, 121, 0.9);
+}
+
+.right-btn {
+  width: 90%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: rgba(121, 121, 121, 0.9);
+  font-size: 1.4rem;
+  gap: 1rem;
+}
