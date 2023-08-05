@@ -1,9 +1,15 @@
 /* components */
 @import "components/no-mobile.css";
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* screens */
 @import "screens/login.css";
+@import "screens/home.css";
+@import "screens/notification.css";
+@import "screens/explore.css";
+@import "screens/profile.css";
 
 body {
   margin: 0;

@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  text-align: center;
+}
+
+.nav-list {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+.nav__item > :first-child {
+  font-size: 1.5rem;
+}
+.nav__item > :last-child {
+  font-size: 1.2rem;
+}
+
+.nav__pick {
+  color: #58a6ff;
+}

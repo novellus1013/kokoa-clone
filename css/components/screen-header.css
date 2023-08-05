@@ -1,0 +1,27 @@
+.screen-header {
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid grey;
+  color: white;
+}
+
+.screen-header__title {
+  font-size: 2rem;
+}
+
+.screen-header__row {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #58a6ff;
+}
+
+.screen-header__pr-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
