@@ -1,0 +1,27 @@
+.tabs {
+  background-color: black;
+}
+
+.notification__contents {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url(../../assets/git-back.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.notification__title {
+  margin-top: 10rem;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.notification__sub {
+  font-size: 1.5rem;
+  color: rgba(121, 121, 121, 0.9);
+}
