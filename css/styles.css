@@ -14,3 +14,9 @@
 body {
   margin: 0;
 }
+
+@media all and (max-width: 400px) {
+  body {
+    min-width: 500px;
+  }
+}
