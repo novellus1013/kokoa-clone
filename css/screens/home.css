@@ -87,3 +87,10 @@
 .favorite__text > :last-child {
   font-size: 1.2rem;
 }
+
+@media screen and (max-width: 400px) {
+  .mywork {
+    padding: 1rem 1rem;
+    min-width: 400px;
+  }
+}

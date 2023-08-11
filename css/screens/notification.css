@@ -25,3 +25,9 @@
   font-size: 1.5rem;
   color: rgba(121, 121, 121, 0.9);
 }
+
+@media screen and (max-width: 400px) {
+  .notification__contents {
+    min-width: 400px;
+  }
+}
